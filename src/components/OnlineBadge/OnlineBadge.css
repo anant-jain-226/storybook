@@ -1,0 +1,2 @@
+.ui-online { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; border: 1px solid var(--c-line); border-radius: var(--radius-full); background: var(--c-surface); font-size: 11px; }
+.ui-online__dot { width: 7px; height: 7px; border-radius: var(--radius-full); background: var(--c-success); }

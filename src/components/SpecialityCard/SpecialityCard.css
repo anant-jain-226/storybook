@@ -1,0 +1,6 @@
+.ui-spec { display: block; width: 280px; color: inherit; text-decoration: none; }
+.ui-spec__media { height: 200px; border-radius: var(--radius-sm); overflow: hidden; display: grid; place-items: center; font-size: 64px; background: var(--c-brand-soft); }
+.ui-spec__media img { width: 100%; height: 100%; object-fit: cover; }
+.ui-spec__title { margin: 16px 0 4px; font-size: 16px; font-weight: 600; }
+.ui-spec__desc { margin: 0; font-size: 14px; color: var(--c-muted); }
+.ui-spec:hover .ui-spec__title { color: var(--c-brand); }

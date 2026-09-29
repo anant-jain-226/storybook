@@ -1,0 +1,2 @@
+.ui-verified { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; }
+.ui-verified__tick { display: grid; place-items: center; width: 16px; height: 16px; border-radius: var(--radius-full); background: var(--c-success); color: #fff; font-size: 11px; }

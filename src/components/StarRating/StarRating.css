@@ -1,0 +1,2 @@
+.ui-stars { display: inline-flex; align-items: center; gap: 6px; background: var(--c-success); color: #fff; font-size: 12px; padding: 2px 8px; border-radius: var(--radius-sm); }
+.ui-stars__val { font-weight: 700; }

@@ -1,0 +1,10 @@
+.ui-cp__loc { margin: 0 0 16px; font-size: 14px; font-weight: 600; }
+.ui-cp__cols { display: grid; grid-template-columns: 1.4fr 1fr 0.6fr; gap: 20px; font-size: 12px; }
+.ui-cp__name { color: var(--c-brand); font-size: 13px; text-decoration: none; display: block; margin-bottom: 6px; }
+.ui-cp__addr { margin: 10px 0 6px; line-height: 1.5; }
+.ui-cp__link { font: inherit; background: none; border: 0; padding: 0; color: var(--c-brand); cursor: pointer; }
+.ui-cp__time { display: grid; gap: 4px; align-content: start; }
+.ui-cp__fee { font-size: 14px; }
+.ui-cp__foot { display: flex; justify-content: flex-end; margin-top: 24px; }
+.ui-cp__hint { display: block; font-size: 10px; font-weight: 400; }
+@media (max-width: 720px) { .ui-cp__cols { grid-template-columns: 1fr; } }

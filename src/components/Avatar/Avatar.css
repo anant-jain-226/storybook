@@ -1,0 +1,7 @@
+.ui-avatar { position: relative; display: inline-block; flex: none; }
+.ui-avatar img, .ui-avatar__fallback { width: 100%; height: 100%; border-radius: var(--radius-full); object-fit: cover; }
+.ui-avatar__fallback { display: grid; place-items: center; background: var(--c-brand-soft); color: var(--c-brand); font-weight: 900; font-size: 28px; }
+.ui-avatar__badge { position: absolute; left: 50%; bottom: -10px; transform: translateX(-50%); background: var(--c-surface); border: 1px solid var(--c-brand); border-radius: var(--radius-sm); padding: 2px 8px; font-size: 11px; font-weight: 700; color: var(--c-brand); white-space: nowrap; }
+.ui-avatar--ring { margin: 5px; }
+.ui-avatar--ring img, .ui-avatar--ring .ui-avatar__fallback { box-shadow: 0 0 0 2px var(--c-surface), 0 0 0 4px var(--c-success); }
+.ui-avatar__online { position: absolute; right: 2%; bottom: 6%; width: 14px; height: 14px; border-radius: var(--radius-full); background: var(--c-success); border: 2px solid var(--c-surface); }

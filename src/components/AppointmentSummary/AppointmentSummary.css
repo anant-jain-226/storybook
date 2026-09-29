@@ -1,0 +1,7 @@
+.ui-apt { background: var(--c-surface); box-shadow: 0 1px 3px rgba(29, 27, 58, 0.1); font-size: 12px; max-width: 360px; }
+.ui-apt__head { padding: 14px 16px; font-size: 14px; font-weight: 600; border-bottom: 1px solid var(--c-line); }
+.ui-apt__row { padding: 14px 16px; border-bottom: 1px solid var(--c-line); }
+.ui-apt__when { display: flex; justify-content: space-between; margin-bottom: 8px; }
+.ui-apt__person { display: flex; gap: 16px; align-items: flex-start; }
+.ui-apt__person p { margin: 6px 0; line-height: 1.5; color: var(--c-muted); }
+.ui-apt__link { font: inherit; background: none; border: 0; padding: 0; color: var(--c-brand); cursor: pointer; }

@@ -1,0 +1,8 @@
+.ui-car { position: relative; }
+.ui-car__track { display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 4px 0; }
+.ui-car__track::-webkit-scrollbar { display: none; }
+.ui-car__track > * { flex: none; scroll-snap-align: start; }
+.ui-car__btn { position: absolute; top: 50%; transform: translateY(-50%); width: 40px; height: 40px; border-radius: var(--radius-full); border: 0; background: var(--c-surface); box-shadow: var(--shadow-card); font-size: 24px; line-height: 1; cursor: pointer; color: var(--c-ink); }
+.ui-car__btn--prev { left: -20px; }
+.ui-car__btn--next { right: -20px; }
+@media (prefers-reduced-motion: reduce) { .ui-car__track { scroll-behavior: auto; } }

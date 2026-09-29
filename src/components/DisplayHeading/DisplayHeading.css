@@ -1,0 +1,2 @@
+.ui-dh { margin: 0; font-size: clamp(40px, 6vw, 68px); font-weight: 500; line-height: 1.05; letter-spacing: -0.025em; color: var(--c-ink); }
+.ui-dh em { font-style: normal; color: var(--c-brand); }

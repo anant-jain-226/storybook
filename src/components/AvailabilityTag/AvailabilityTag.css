@@ -1,0 +1,3 @@
+.ui-avail { font-size: 14px; font-weight: 600; }
+.ui-avail--success { color: var(--c-success); }
+.ui-avail--muted { color: var(--c-muted); }

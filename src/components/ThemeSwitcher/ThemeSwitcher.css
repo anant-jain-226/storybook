@@ -1,0 +1,3 @@
+.ui-theme { display: inline-flex; gap: 8px; padding: 4px; border: 1px solid var(--c-line); border-radius: var(--radius-full); background: var(--c-surface); }
+.ui-theme__dot { width: 22px; height: 22px; border-radius: var(--radius-full); border: 2px solid var(--c-surface); cursor: pointer; padding: 0; }
+.ui-theme__dot[aria-checked='true'] { box-shadow: 0 0 0 2px var(--c-brand); }

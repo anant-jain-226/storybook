@@ -1,0 +1,6 @@
+.ui-mnf { max-width: 400px; }
+.ui-mnf__title { margin: 0 0 16px; font-size: 18px; font-weight: 600; }
+.ui-mnf__label { display: block; margin-bottom: 6px; font-size: 12px; color: var(--c-muted); }
+.ui-mnf__input { border: 1px solid var(--c-line); border-radius: var(--radius-sm); }
+.ui-mnf__help { margin: 8px 0 16px; font-size: 11px; line-height: 1.5; color: var(--c-muted); }
+.ui-mnf .ui-mnf__submit { width: 100%; }

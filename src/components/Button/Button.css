@@ -1,0 +1,5 @@
+.ui-btn { font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; padding: 10px 20px; border-radius: var(--radius-full); border: 1px solid transparent; background: none; }
+.ui-btn--primary { background: var(--c-primary); color: var(--c-on-primary); box-shadow: 0 2px 8px color-mix(in srgb, var(--c-primary) 60%, transparent); }
+.ui-btn--outline { border-color: var(--c-brand); color: var(--c-brand); background: var(--c-surface); }
+.ui-btn--link { color: var(--c-brand); padding: 0; font-weight: 700; font-size: 12px; letter-spacing: 0.02em; }
+.ui-btn:disabled { opacity: 0.5; cursor: not-allowed; }

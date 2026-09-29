@@ -1,0 +1,4 @@
+.ui-rsum { display: inline-flex; align-items: center; gap: 14px; }
+.ui-rsum__value { font-size: 44px; font-weight: 500; color: var(--c-brand); }
+.ui-rsum__stars { color: var(--c-accent); letter-spacing: 3px; }
+.ui-rsum small { font-size: 11px; color: var(--c-muted); }

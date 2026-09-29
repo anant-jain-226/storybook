@@ -1,0 +1,10 @@
+.ui-stats { display: flex; flex-wrap: wrap; margin: 0; }
+.ui-stats__item { display: flex; flex-direction: column; padding: 0 28px; border-left: 1px solid var(--c-line); }
+.ui-stats__item:first-child { padding-left: 0; border-left: 0; }
+.ui-stats__value { order: 1; margin: 0; font-size: 30px; font-weight: 500; }
+.ui-stats__label { order: 2; margin-top: 4px; font-size: 12px; color: var(--c-muted); }
+.ui-stats__icon { order: 0; margin-bottom: 6px; color: var(--c-brand); }
+.ui-stats--center { border: 0; }
+.ui-stats--center .ui-stats__item { flex: 1; align-items: center; text-align: center; padding: 8px 12px; }
+.ui-stats--center .ui-stats__item:first-child { padding-left: 12px; }
+.ui-stats--center .ui-stats__value { font-size: 20px; }

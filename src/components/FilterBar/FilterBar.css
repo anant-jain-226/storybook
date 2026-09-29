@@ -1,0 +1,4 @@
+.ui-fbar { background: var(--c-bar); color: #fff; }
+.ui-fbar__inner { max-width: 1180px; margin: 0 auto; padding: 12px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; }
+.ui-fbar__all { font: inherit; font-size: 14px; background: none; border: 0; color: #fff; cursor: pointer; }
+.ui-fbar__sort { display: flex; align-items: center; gap: 8px; font-size: 14px; margin-left: 16px; }

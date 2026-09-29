@@ -1,0 +1,9 @@
+.ui-rev { padding: 20px; background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--radius-md); }
+.ui-rev__head { display: flex; align-items: center; gap: 10px; }
+.ui-rev__name { flex: 1; font-size: 12px; font-weight: 600; text-transform: uppercase; }
+.ui-rev__stars { color: var(--c-accent); font-size: 11px; letter-spacing: 2px; }
+.ui-rev__text { margin: 14px 0 0; font-size: 12px; line-height: 1.6; }
+.ui-rev__reply { margin-top: 14px; padding: 12px 14px; border-left: 2px solid var(--c-accent); border-radius: 10px; background: var(--c-brand-soft); }
+.ui-rev__replyhead { margin: 0; font-size: 12px; }
+.ui-rev__pill { margin-left: 6px; padding: 2px 8px; border-radius: var(--radius-full); background: var(--c-primary); color: var(--c-on-primary); font-size: 9px; font-weight: 700; }
+.ui-rev__reply .ui-rev__text { margin-top: 6px; }

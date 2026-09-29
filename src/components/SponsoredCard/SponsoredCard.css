@@ -1,0 +1,11 @@
+.ui-spon { display: grid; grid-template-columns: 353px 1fr 212px; gap: 16px; align-items: start; padding: 0 0 24px; border-bottom: 1px solid var(--c-line); }
+.ui-spon__media { position: relative; height: 198px; border-radius: var(--radius-md); background: #000; overflow: hidden; display: grid; place-items: center; color: #fff; font-size: 56px; }
+.ui-spon__ad { position: absolute; top: 8px; right: 8px; font-size: 10px; background: rgba(255, 255, 255, 0.35); padding: 1px 6px; border-radius: var(--radius-full); }
+.ui-spon__name { margin: 0; font-size: 20px; font-weight: 600; color: var(--c-brand); }
+.ui-spon__body p { margin: 6px 0 0; font-size: 14px; }
+.ui-spon__sub { color: var(--c-muted); text-decoration: underline; }
+.ui-spon__tag { color: var(--c-brand); font-weight: 600; }
+.ui-spon__proof { display: flex; gap: 12px; align-items: center; margin-top: 10px; }
+.ui-spon__stories { font-size: 14px; font-weight: 600; text-decoration: underline; }
+.ui-spon .ui-spon__cta { align-self: end; }
+@media (max-width: 900px) { .ui-spon { grid-template-columns: 1fr; } }

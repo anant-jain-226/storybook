@@ -1,0 +1,11 @@
+.ui-astro { display: grid; grid-template-columns: auto 1fr 220px; gap: 16px; padding: 24px 0; border-bottom: 1px solid var(--c-line); align-items: start; }
+.ui-astro__name { margin: 0 0 4px; font-size: 20px; font-weight: 600; color: var(--c-brand); }
+.ui-astro__info p { margin: 0 0 4px; font-size: 14px; }
+.ui-astro .ui-astro__muted { color: var(--c-muted); }
+.ui-astro__fee { padding-bottom: 12px; border-bottom: 1px dashed var(--c-line); max-width: 300px; }
+.ui-astro__proof { display: flex; align-items: center; gap: 12px; margin-top: 12px; }
+.ui-astro__stories { font-size: 14px; font-weight: 600; text-decoration: underline; }
+.ui-astro__actions { display: flex; flex-direction: column; gap: 10px; text-align: center; padding-top: 24px; }
+.ui-astro .ui-btn { width: 100%; }
+.ui-astro__hint { display: block; font-size: 10px; font-weight: 400; }
+@media (max-width: 720px) { .ui-astro { grid-template-columns: auto 1fr; } .ui-astro__actions { grid-column: 1 / -1; padding-top: 0; } }

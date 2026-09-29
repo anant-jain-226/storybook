@@ -1,0 +1,8 @@
+.ui-consult { display: grid; gap: 10px; padding: 20px; background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--radius-md); text-align: center; }
+.ui-consult__title { margin: 0; font-size: 14px; font-weight: 600; }
+.ui-consult__rate { margin: 0 0 6px; font-size: 14px; }
+.ui-consult__rate strong { font-size: 20px; font-weight: 600; }
+.ui-consult .ui-btn { width: 100%; }
+.ui-consult .ui-consult__chat { border-color: var(--c-success); color: var(--c-success); }
+.ui-consult__off { display: block; font-size: 10px; font-weight: 400; }
+.ui-consult__notes { margin: 6px 0 0; padding: 12px 0 0; border-top: 1px dashed var(--c-line); list-style: none; display: grid; gap: 8px; font-size: 11px; text-align: left; color: var(--c-muted); }

@@ -1,0 +1,8 @@
+.ui-story { padding: 20px 0; border-bottom: 1px solid var(--c-line); font-size: 13px; }
+.ui-story__head { display: flex; align-items: center; gap: 12px; }
+.ui-story__name { flex: 1; color: var(--c-muted); }
+.ui-story__time { color: var(--c-muted); font-size: 12px; }
+.ui-story__body { margin-left: 44px; }
+.ui-story__rec { margin: 12px 0; font-weight: 600; }
+.ui-story__tags { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; }
+.ui-story__text { margin: 0; line-height: 1.5; }

@@ -1,0 +1,3 @@
+.ui-chip { font: inherit; font-size: 14px; padding: 6px 8px; background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--radius-sm); color: var(--c-ink); cursor: pointer; }
+.ui-chip:hover { border-color: var(--c-brand); }
+.ui-chip--on { background: var(--c-brand-soft); border-color: var(--c-brand); color: var(--c-brand); }

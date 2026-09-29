@@ -1,0 +1,9 @@
+.ui-nav { background: var(--c-surface); border-bottom: 1px solid var(--c-line); }
+.ui-nav__inner { max-width: 1280px; margin: 0 auto; padding: 0 24px; height: 72px; display: flex; align-items: center; gap: 32px; }
+.ui-nav__brand { font-size: 26px; font-weight: 900; color: var(--c-brand); text-decoration: none; }
+.ui-nav__links { display: flex; gap: 24px; flex: 1; }
+.ui-nav__links a { color: var(--c-ink); text-decoration: none; font-weight: 600; font-size: 15px; }
+.ui-nav__links a:hover { color: var(--c-brand); }
+@media (max-width: 720px) { .ui-nav__links { display: none; } .ui-nav__inner { justify-content: space-between; } }
+.ui-nav { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--c-surface) 88%, transparent); backdrop-filter: blur(8px); }
+.ui-nav__actions { display: flex; align-items: center; gap: 12px; }

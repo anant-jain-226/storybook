@@ -1,0 +1,7 @@
+.ui-locp { width: 100%; max-width: 496px; background: var(--c-surface); box-shadow: var(--shadow-card); border-radius: var(--radius-sm); padding: 24px 20px; }
+.ui-locp__title { margin: 0 0 8px; font-size: 20px; font-weight: 600; }
+.ui-locp__desc { margin: 0 0 16px; font-size: 14px; color: var(--c-muted); }
+.ui-locp__chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.ui-locp__actions { display: flex; justify-content: space-between; align-items: center; margin-top: 24px; }
+.ui-locp .ui-btn--link { font-size: 14px; }
+.ui-locp .ui-btn--primary { flex: 0 0 228px; }

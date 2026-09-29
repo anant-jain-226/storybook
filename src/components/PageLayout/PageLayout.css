@@ -1,0 +1,8 @@
+.ui-pl { background: var(--c-page); min-height: 100%; padding: 16px 0 48px; }
+.ui-pl__inner { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+.ui-pl__top { margin-bottom: 16px; }
+.ui-pl__cols { display: grid; gap: 24px; }
+.ui-pl__cols--two { grid-template-columns: minmax(0, 1fr) 340px; }
+.ui-pl__main { display: grid; gap: 16px; align-content: start; }
+.ui-pl__aside { align-self: start; position: sticky; top: 16px; }
+@media (max-width: 900px) { .ui-pl__cols--two { grid-template-columns: 1fr; } .ui-pl__aside { position: static; } }

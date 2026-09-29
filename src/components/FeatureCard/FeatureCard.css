@@ -1,0 +1,9 @@
+.ui-fcard { display: block; width: 200px; background: var(--c-surface); border-radius: var(--radius-md); box-shadow: var(--shadow-card); overflow: hidden; text-decoration: none; color: inherit; }
+.ui-fcard__media { height: 170px; display: grid; place-items: center; font-size: 72px; }
+.ui-fcard__media--blue { background: #b9d3ef; }
+.ui-fcard__media--teal { background: #8fc7cb; }
+.ui-fcard__media--lilac { background: #d5d3fb; }
+.ui-fcard__media--gold { background: #f6dfb4; }
+.ui-fcard__body { padding: 16px; min-height: 118px; }
+.ui-fcard__title { margin: 0 0 8px; font-size: 20px; line-height: 1.2; }
+.ui-fcard__desc { margin: 0; font-size: 14px; color: var(--c-muted); }

@@ -1,0 +1,4 @@
+.ui-searchbar { display: flex; border: 1px solid var(--c-line); border-radius: var(--radius-sm); overflow: hidden; max-width: 712px; }
+.ui-searchbar__loc { flex: 0 0 35%; border-right: 1px solid var(--c-line); }
+.ui-searchbar__q { flex: 1; }
+@media (max-width: 560px) { .ui-searchbar { flex-direction: column; } .ui-searchbar__loc { border-right: 0; border-bottom: 1px solid var(--c-line); } }

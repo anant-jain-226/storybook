@@ -1,0 +1,11 @@
+.ui-ticker { overflow: hidden; border-top: 1px solid var(--c-line); }
+.ui-ticker__track { display: flex; width: max-content; animation: ui-ticker 50s linear infinite; }
+.ui-ticker:hover .ui-ticker__track { animation-play-state: paused; }
+.ui-ticker__group { display: flex; }
+.ui-ticker__item { display: flex; align-items: center; gap: 8px; margin: 0; padding: 16px 24px; font-size: 12px; white-space: nowrap; }
+.ui-ticker__item::before { content: ''; width: 6px; height: 6px; border-radius: var(--radius-full); background: var(--c-brand); }
+.ui-ticker__item b { font-weight: 700; }
+.ui-ticker__item em { font-style: normal; color: var(--c-brand); }
+.ui-ticker__time { color: var(--c-muted); font-size: 11px; }
+@keyframes ui-ticker { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .ui-ticker { overflow-x: auto; } .ui-ticker__track { animation: none; } }

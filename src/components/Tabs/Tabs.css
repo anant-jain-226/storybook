@@ -1,0 +1,3 @@
+.ui-tabs { display: flex; flex-wrap: wrap; background: var(--c-brand-soft); }
+.ui-tabs__tab { font: inherit; font-size: 13px; font-weight: 600; padding: 14px 20px; border: 0; background: none; color: var(--c-muted); cursor: pointer; }
+.ui-tabs__tab[aria-selected='true'] { background: var(--c-surface); color: var(--c-brand); box-shadow: inset 0 3px 0 var(--c-brand); }

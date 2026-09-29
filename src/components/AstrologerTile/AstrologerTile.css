@@ -1,0 +1,12 @@
+.ui-atile { position: relative; padding: 16px; background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--radius-md); }
+.ui-atile__badge { position: absolute; top: 16px; right: 16px; padding: 3px 12px; border-radius: var(--radius-full); background: var(--c-brand-soft); font-size: 10px; }
+.ui-atile__name { margin: 12px 0; font-size: 16px; font-weight: 600; }
+.ui-atile__name a { color: inherit; text-decoration: none; }
+.ui-atile__tick { display: inline-grid; place-items: center; width: 13px; height: 13px; border-radius: var(--radius-full); background: var(--c-success); color: #fff; font-size: 9px; vertical-align: middle; }
+.ui-atile__tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.ui-atile__meta { margin: 14px 0; font-size: 11px; color: var(--c-muted); line-height: 1.6; }
+.ui-atile__row { display: flex; justify-content: space-between; align-items: baseline; font-size: 11px; }
+.ui-atile__rating span { color: var(--c-accent); }
+.ui-atile__rate strong { font-size: 15px; font-weight: 600; }
+.ui-atile__actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 16px; }
+.ui-atile .ui-btn { padding: 8px 0; border-color: var(--c-success); color: var(--c-success); }

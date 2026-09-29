@@ -1,0 +1,3 @@
+.ui-stile { display: flex; flex-direction: column; align-items: center; gap: 10px; width: 150px; text-align: center; }
+.ui-stile__icon { width: 120px; height: 120px; border-radius: var(--radius-full); background: var(--c-brand-soft); display: grid; place-items: center; font-size: 52px; }
+.ui-stile__label { margin: 0; font-weight: 700; font-size: 15px; line-height: 1.25; min-height: 38px; }
