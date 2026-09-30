@@ -2,6 +2,7 @@ import './tokens.css';
 export { Button } from './components/Button/Button';
 export { Input } from './components/Input/Input';
 export { SearchBar } from './components/SearchBar/SearchBar';
+export { LocationPicker } from './components/LocationPicker/LocationPicker';
 export { NavBar } from './components/NavBar/NavBar';
 export { FeatureCard } from './components/FeatureCard/FeatureCard';
 export { SectionHeader } from './components/SectionHeader/SectionHeader';
